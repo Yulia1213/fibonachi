@@ -13,6 +13,9 @@ alert('RESULT: first method - ' + firstMethodNum + '; second method - ' + second
  }
  
  function findFibonacci(n){
+     if(n==0){
+         return n;
+     }
      let f1 = 0; let f2 = 1; let fn = 1;
         for (let i = 1; i < n; i++){
             fn =  f1 + f2;
